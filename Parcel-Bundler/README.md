@@ -1,17 +1,14 @@
 # Parcel 기본 템플릿
 
-__Parcel__: 모듈(패키지) 번들러의 핵심 패키지<br>
-__webpack-cli__: 터미널에서 Webpack 명령(CLI)을 사용할 수 있음<br>
-__webpack-dev-server__: 개발용으로 Live Server를 실행(HMR)<br>
+__npm init__ : 프로젝트 시작!
+
+- __Parcel__: 모듈(패키지) 번들러의 핵심 패키지<br>
+`npm i -D parcel-bundler` : 번들러 개발 의존성으로 설치
+
 
 __html-webpack-plugin__: 최초 실행될 HTML 파일(템플릿)을 연결<br>
 __copy-webpack-plugin__: 정적 파일(파비콘, 이미지 등)을 제품(`dist`) 폴더로 복사<br>
 
-__sass-loader__: SCSS(Sass) 파일을 로드<br>
-__postcss-loader__: PostCSS(Autoprefixer)로 스타일 파일을 처리<br>
-__css-loader__: CSS 파일을 로드<br>
-__style-loader__: 로드된 스타일(CSS)을 `<style>`로 `<head>`에 삽입<br>
-__babel-loader__: JS 파일을 로드<br>
 
 __@babel/core__: ES6 이상의 코드를 ES5 이하 버전으로 변환<br>
 __@babel/preset-env__: Babel 지원 스펙을 지정<br>
